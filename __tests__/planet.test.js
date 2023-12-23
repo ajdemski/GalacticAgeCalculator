@@ -5,7 +5,7 @@ describe('AgeCalculator', () => {
   test('should correctly instantiate AgeCalculator with name and age', () => {
     const ageCalculator = new AgeCalculator('Aaron', 30);
     expect(ageCalculator).toBeInstanceOf(AgeCalculator);
-    expect(ageCalculator.name).toBeUndefined();
+    expect(ageCalculator.name).toBe("Aaron");
     expect(ageCalculator.age).toBe(30);
   });
 
