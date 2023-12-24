@@ -27,7 +27,7 @@ describe("AgeCalculator", () => {
     const planetYearsUntilBirthday = ageCalculator.calculateYearsUntilFutureBirthday(futureAge);
 
     expect(planetYearsUntilBirthday.earth).toBe(futureAge - 56);
-    expect(planetYearsUntilBirthday.mercury).toBeCloseTo((futureAge - 56) * 0.24 + 1, 4);
+    expect(planetYearsUntilBirthday.mercury).toBeCloseTo((futureAge - 56) * 0.24, 4);
     expect(planetYearsUntilBirthday.venus).toBeCloseTo((futureAge - 56) * 0.62, 4);
     expect(planetYearsUntilBirthday.mars).toBeCloseTo((futureAge - 56) * 1.88, 4);
     expect(planetYearsUntilBirthday.jupiter).toBeCloseTo((futureAge - 56) * 11.86, 4);
