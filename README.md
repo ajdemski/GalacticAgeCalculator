@@ -18,14 +18,14 @@ _A Code Review Project from Aaron Demski, In this repository you'll find index.h
 * _Clone my repository to your desktop using VsCode._
 * In the terminal clone the repository with the command:
 ```
-git clone 
+git clone https://github.com/ajdemski/GalacticAgeCalculator
 ```
 * _Navigte to the top level of the directory._
 * _Open index.html in the file you cloned._
 
 ## _Link To Site_
 
-* 
+* https://ajdemski.github.io/GalacticAgeCalculator/
 
 ## Known Bugs
 
