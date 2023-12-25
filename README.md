@@ -5,13 +5,18 @@
 * _Html_
 * _Css_
 * _JavaScript_
-* _TDD (Test-Driven-Development)_
+* _TDD (Red, Green, Refactor Workflow)_
 * _VsCode_
 * _GitHub_
+* _ES6_
+* _Jest_
+* _npm_
+* _Webpack_
+* _Babelrc_
 
 ## Description
 
-_A Code Review Project from Aaron Demski, In this repository you'll find index.html, css/styles.css, js/scripts.js, and obviously the README.md. This repo is about Mr. Robogers Neighborhood, input numbers and see what you get returned back to you! Hope you enjoy._
+_A Code Review Project from Aaron Demski, This repo is about a Super Galactic Calculator! input your age to see how old you would be on other planets! Hope you enjoy._
 
 ## Setup/Installation Requirements
 
@@ -20,8 +25,19 @@ _A Code Review Project from Aaron Demski, In this repository you'll find index.h
 ```
 git clone https://github.com/ajdemski/GalacticAgeCalculator
 ```
-* _Navigte to the top level of the directory._
-* _Open index.html in the file you cloned._
+* _Navigte to the directory where you want your cloned project to exist and initialize a new project in the terminal with "npm init"._
+* _install the packages with:_
+```
+npm install
+```
+* _if you want to see my jest tests you can also run this in the terminal and it will pass with 100% coverage, try it out:_
+```
+npm test
+```
+* _once done with all the previous steps you should now be able to run this in the terminal to start the live server:_
+```
+npm start
+```
 
 ## _Link To Site_
 
